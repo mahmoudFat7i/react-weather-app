@@ -1,0 +1,70 @@
+/* Weather.css */
+
+.weather-container {
+    max-width: 500px;
+    margin: auto;
+    background-color: #d1d1d1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin-top: 20px;
+    padding: 16px;
+  }
+  
+  .weather-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+  
+  .weather-info-left {
+    width: 100%;
+    margin-bottom: 16px;
+    @media (min-width: 768px) {
+      width: 50%;
+      margin-right: 16px;
+      margin-bottom: 0;
+    }
+  }
+  
+  .weather-info-left p {
+    font-size: 1rem;
+  }
+  
+  .weather-info-left h1 {
+    font-size: 2rem;
+    @media (min-width: 768px) {
+      font-size: 3rem;
+    }
+  }
+  
+  .weather-info-right {
+    width: 100%;
+    @media (min-width: 768px) {
+      width: 50%;
+    }
+  }
+  
+  .weather-info-right img {
+    width: 120px;
+  }
+  
+  .weather-details-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .weather-details-info div {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  
+  .weather-details-info p {
+    font-weight: bold;
+    width: 20%;
+  }
+  
